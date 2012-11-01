@@ -1,10 +1,10 @@
 class LesscssCompilerGrailsPlugin {
     // the plugin version
-    def version = "1.0-SNAPSHOT"
+    def version = "1.0"
     // the version or versions of Grails the plugin is designed for
     def grailsVersion = "1.2.4 > *"
 
-    def title = "Less Compiler Plugin" // Headline display name of the plugin
+    def title = "LESS CSS Compiler Plugin" // Headline display name of the plugin
     def author = "Masatoshi Hayashi"
     def authorEmail = "literalice@monochromeroad.com"
     def description = "This plugin allows you to compile less css files."
