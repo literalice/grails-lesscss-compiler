@@ -13,7 +13,8 @@ compileLessCss = {
     LessCssCompiler lessCssCompiler = new LessCssCompiler(baseDir)
     if (lessDir.canRead()) {
         lessDir.eachFileRecurse(FileType.FILES) {
-            lessCssCompiler.compile(it)
+            if (!it.isHidden() && it.name ==~ /.+\.less/)
+                lessCssCompiler.compile(it)
         }
     }
 }
