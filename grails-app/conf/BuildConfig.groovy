@@ -47,7 +47,7 @@ grails.project.dependency.resolution = {
         mavenCentral()
     }
     dependencies {
-        build("org.lesscss:lesscss:1.3.1")
+        compile("org.lesscss:lesscss:1.3.3")
     }
 
     plugins {
